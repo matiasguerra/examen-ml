@@ -1,0 +1,51 @@
+.item {
+    .image {
+        margin-right: 16px;
+        display: inline-block;
+
+        a {
+            display: inline-block;
+            width: 180px;
+            height: 180px;
+
+            img {
+                border-radius: 4px;
+            }
+        }
+    }
+
+    .data {
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 20px;
+
+        .price {
+            font-size: 24px;
+            line-height: 24px;
+
+            .currency {
+                margin-right: 8px;
+            }
+
+            .free-shipping {
+                background-image: url('../../../../assets/icons/ic_shipping.png');
+                height: 18px;
+                width: 18px;
+                display: inline-block;
+                margin-left: 10px;
+            }
+        }
+
+        .title {
+            margin-top: 32px;
+            max-width: 400px;
+            display: block;
+
+            h2 {
+                font-size: 18px;
+                line-height: 18px;
+                font-weight: normal;
+            }
+        }
+    }
+}

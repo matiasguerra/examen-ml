@@ -1,0 +1,40 @@
+@import './vendor/reset';
+
+body {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    background-color: #EEE;
+    color: #333;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+a {
+    cursor: pointer;
+    color: #666;
+    text-decoration: none;
+
+    &:hover {
+        color: #333;
+    }
+}
+
+.center {
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::-webkit-input-placeholder {
+    color: #999;
+}
+::-moz-placeholder {
+    color: #999;
+}
+:-ms-input-placeholder {
+    color: #999;
+}
+:-moz-placeholder {
+    color: #999;
+}

@@ -1,0 +1,19 @@
+.breadcrumb {
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    li {
+        display: inline-block;
+        margin-right: 5px;
+        font-size: 14px;
+
+        &:last-child {
+            font-weight: bold;
+        }
+    }
+
+    .chevron {
+        margin-right: 5px;
+        font-size: 11px;
+    }
+}

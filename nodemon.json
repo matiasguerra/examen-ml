@@ -1,0 +1,10 @@
+{
+    "nodeArgs": [
+        "--inspect=5820"
+    ],
+    "ignore": "client/**",
+    "watch": "server/*",
+    "env": {
+        "NODE_ENV": "development"
+    }
+}
