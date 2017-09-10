@@ -28,8 +28,13 @@ const commonConfig = {
             {
                 test: /\.(png|svg|jpg|gif)$/,
                 include : CLIENT_DIR,
-                use: ['file-loader']
-            },
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {outputPath: '/dist'}
+                    }
+                ]
+            }
         ]
     },
     devtool: 'source-map'
@@ -39,3 +44,4 @@ module.exports = (env) => {
     const envConfig = require(`./config/webpack.${env}`);
     return webpackMerge(commonConfig, envConfig);
 };
+
